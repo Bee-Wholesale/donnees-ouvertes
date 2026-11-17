@@ -112,6 +112,8 @@ Fréquence prévue : **mensuelle**. Chaque nouveau relevé publié sur bee-whole
 
 Le fichier `CITATION.cff` donne la même référence dans un format lisible par GitHub, Zenodo et les gestionnaires de références.
 
+DOI (Zenodo) : [10.5281/zenodo.24310054](https://doi.org/10.5281/zenodo.24310054). Dépôt GitHub : [Bee-Wholesale/donnees-ouvertes](https://github.com/Bee-Wholesale/donnees-ouvertes).
+
 Contact : bonjour@bee-wholesale.com
 
 ---
