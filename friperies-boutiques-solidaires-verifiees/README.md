@@ -76,6 +76,8 @@ Fréquence prévue : **mensuelle**. Chaque guide de lieux publié depuis la vers
 
 > Bee Wholesale (bee-wholesale.com), « Friperies et boutiques solidaires vérifiées », version 2026.11, adresses vérifiées le 15 novembre 2026, licence CC BY 4.0, https://bee-wholesale.com/blogs/guides/friperies-france
 
+DOI (Zenodo) : [10.5281/zenodo.24310092](https://doi.org/10.5281/zenodo.24310092). Dépôt GitHub : [Bee-Wholesale/donnees-ouvertes](https://github.com/Bee-Wholesale/donnees-ouvertes).
+
 Contact : bonjour@bee-wholesale.com
 
 ---
