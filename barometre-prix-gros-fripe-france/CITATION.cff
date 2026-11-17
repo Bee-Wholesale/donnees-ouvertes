@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces données, citez-les ainsi : Bee Wholesale (bee-wholesale.com). If you use this dataset, please cite it as below."
+type: dataset
+title: "Baromètre des prix de gros de la fripe en France"
+abstract: "Prix publics de 16 grossistes de vêtements de seconde main établis en France ou dans l'Union européenne et livrant la France, relevés le 16 octobre 2026 : 54 prix ramenés au kilo ou à la pièce, médianes et fourchettes par format (lots triés au kilo, ballots de 25 à 50 kg, box et lots de marque, lots à la pièce, déstockage, vintage et premium). Données reprises du baromètre publié sur bee-wholesale.com."
+authors:
+  - name: "Bee Wholesale"
+    website: "https://bee-wholesale.com"
+    email: "bonjour@bee-wholesale.com"
+version: "2026.11"
+date-released: 2026-11-17
+license: CC-BY-4.0
+url: "https://bee-wholesale.com/pages/barometre-prix-fripe-en-gros"
+keywords:
+  - "fripe"
+  - "fripe en gros"
+  - "prix au kilo"
+  - "ballot de vêtements"
+  - "box revendeur"
+  - "seconde main"
+  - "vêtements d'occasion"
+  - "grossiste"
+  - "friperie"
+  - "France"
+  - "prix"

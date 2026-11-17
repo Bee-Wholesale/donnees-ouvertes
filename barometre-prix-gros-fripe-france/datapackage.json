@@ -1,0 +1,308 @@
+{
+  "profile": "tabular-data-package",
+  "name": "barometre-prix-gros-fripe-france",
+  "title": "Baromètre des prix de gros de la fripe en France",
+  "description": "Prix publics de 16 grossistes de vêtements de seconde main établis en France ou dans l'Union européenne et livrant la France, relevés le 16 octobre 2026 : 54 prix ramenés au kilo ou à la pièce, médianes et fourchettes par format (lots triés au kilo, ballots de 25 à 50 kg, box et lots de marque, lots à la pièce, déstockage, vintage et premium). Données reprises du baromètre publié sur bee-wholesale.com.",
+  "version": "2026.11",
+  "created": "2026-11-17T12:00:00+01:00",
+  "homepage": "https://bee-wholesale.com/pages/barometre-prix-fripe-en-gros",
+  "keywords": [
+    "fripe",
+    "fripe en gros",
+    "prix au kilo",
+    "ballot de vêtements",
+    "box revendeur",
+    "seconde main",
+    "vêtements d'occasion",
+    "grossiste",
+    "friperie",
+    "France",
+    "prix"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Bee Wholesale",
+      "path": "https://bee-wholesale.com",
+      "email": "bonjour@bee-wholesale.com",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bee Wholesale, Baromètre des prix de la fripe en gros (octobre 2026)",
+      "path": "https://bee-wholesale.com/pages/barometre-prix-fripe-en-gros"
+    }
+  ],
+  "resources": [
+    {
+      "name": "offres",
+      "path": "barometre-prix-gros-fripe-france-offres.csv",
+      "title": "Offres relevées",
+      "description": "Une ligne par prix retenu (54 lignes au relevé du 16/10/2026).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\"",
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Identifiant stable de la ligne",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "date_releve",
+            "type": "date",
+            "description": "Date du relevé des prix publics (AAAA-MM-JJ)"
+          },
+          {
+            "name": "categorie",
+            "type": "string",
+            "description": "Catégorie de format (lots triés au kilo, ballots de 25 à 50 kg, box de marque, lots à la pièce, déstockage, vintage et premium)"
+          },
+          {
+            "name": "offre",
+            "type": "string",
+            "description": "Libellé de l'offre relevée, tel que publié dans le baromètre (vendeur non publié)"
+          },
+          {
+            "name": "grade_annonce",
+            "type": "string",
+            "description": "Grade annoncé par le vendeur, tel que publié (n.c. = non communiqué ; vide = non indiqué dans le baromètre)"
+          },
+          {
+            "name": "prix_ramene",
+            "type": "number",
+            "description": "Prix affiché divisé par le poids ou le nombre de pièces affichés, en euros"
+          },
+          {
+            "name": "unite",
+            "type": "string",
+            "description": "EUR/kg ou EUR/piece",
+            "constraints": {
+              "enum": [
+                "EUR/kg",
+                "EUR/piece"
+              ]
+            }
+          },
+          {
+            "name": "valeur_approchee",
+            "type": "boolean",
+            "description": "true si la valeur est publiée comme approchée (≈)",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "prix_affiche_ht",
+            "type": "boolean",
+            "description": "true si le vendeur affiche explicitement un prix hors taxes",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Publication d'origine de la valeur (titre et date du relevé)"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Page de bee-wholesale.com où la valeur est publiée"
+          }
+        ],
+        "primaryKey": "id",
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "synthese",
+      "path": "barometre-prix-gros-fripe-france-synthese.csv",
+      "title": "Synthèse par catégorie",
+      "description": "Nombre d'offres, de vendeurs, médiane et fourchette par catégorie, telles que publiées.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\"",
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "date_releve",
+            "type": "date"
+          },
+          {
+            "name": "categorie",
+            "type": "string",
+            "description": "Catégorie ou sous-ensemble de catégorie"
+          },
+          {
+            "name": "perimetre",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "catégorie",
+                "sous-ensemble"
+              ]
+            }
+          },
+          {
+            "name": "n_offres",
+            "type": "integer",
+            "description": "Nombre de prix retenus"
+          },
+          {
+            "name": "n_vendeurs",
+            "type": "integer",
+            "description": "Nombre de vendeurs (vide si non publié)"
+          },
+          {
+            "name": "mediane",
+            "type": "number",
+            "description": "Médiane publiée, calculée à partir de 3 offres (vide si n < 3)"
+          },
+          {
+            "name": "minimum",
+            "type": "number"
+          },
+          {
+            "name": "maximum",
+            "type": "number"
+          },
+          {
+            "name": "unite",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EUR/kg",
+                "EUR/piece",
+                "mixte"
+              ]
+            }
+          },
+          {
+            "name": "valeur_approchee",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Publication d'origine de la valeur (titre et date du relevé)"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Page de bee-wholesale.com où la valeur est publiée"
+          }
+        ],
+        "primaryKey": "id",
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "sources",
+      "path": "barometre-prix-gros-fripe-france-sources.csv",
+      "title": "Vendeurs retenus",
+      "description": "Les 16 vendeurs retenus, leur pays et le nombre de prix retenus chez chacun.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\"",
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Domaine du vendeur retenu",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "pays",
+            "type": "string",
+            "description": "Pays d'établissement du vendeur"
+          },
+          {
+            "name": "prix_retenus",
+            "type": "integer",
+            "description": "Nombre de prix retenus chez ce vendeur"
+          },
+          {
+            "name": "date_releve",
+            "type": "date"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Publication d'origine de la valeur (titre et date du relevé)"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Page de bee-wholesale.com où la valeur est publiée"
+          }
+        ],
+        "primaryKey": "site",
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
