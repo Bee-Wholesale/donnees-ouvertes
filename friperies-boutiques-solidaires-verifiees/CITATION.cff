@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces données, citez-les ainsi : Bee Wholesale (bee-wholesale.com). If you use this dataset, please cite it as below."
+type: dataset
+title: "Friperies et boutiques solidaires vérifiées"
+abstract: "Adresses de friperies, boutiques solidaires, Emmaüs, dépôts-ventes et friperies au kilo citées dans les guides de lieux publiés par Bee Wholesale, une ligne par adresse : nom, type, adresse, code postal, ville, date de vérification et lien vers le guide. Ni avis, ni note, ni donnée personnelle. Le jeu s'enrichit à chaque guide publié."
+authors:
+  - name: "Bee Wholesale"
+    website: "https://bee-wholesale.com"
+    email: "bonjour@bee-wholesale.com"
+version: "2026.11"
+date-released: 2026-11-17
+license: CC-BY-4.0
+url: "https://bee-wholesale.com/blogs/guides/friperies-france"
+keywords:
+  - "friperie"
+  - "boutique solidaire"
+  - "Emmaüs"
+  - "dépôt-vente"
+  - "friperie au kilo"
+  - "seconde main"
+  - "adresses"
+  - "Nantes"
+  - "Lyon"
+  - "Paris"
+  - "France"

@@ -1,0 +1,54 @@
+id,nom,type,type_secondaire,adresse,complement_adresse,code_postal,ville,pays,date_verification,url_guide,guide_publie_le
+FBS-0001,Kilo Shop,au kilo,,15-17 rue des Vieilles-Douves,,44000,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0002,"Madeleine, boutique du Secours populaire",boutique solidaire,au kilo,31 chaussée de la Madeleine,,44000,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0003,Rōnin,friperie,,15 square La Pérouse,,44000,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0004,Les Songes,dépôt-vente,,3 place Paul-Émile-Ladmirault,,,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0005,Dernière Main,boutique solidaire,,1 rue du Moulin,en face des Galeries Lafayette,44000,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0006,Dernière Main,boutique solidaire,,21 allée d'Orléans,,,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0007,Boutique de la Croix-Rouge française,boutique solidaire,,16 rue des Carmes,,44000,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0008,Marie et Alphonse,boutique solidaire,,4 rue Paré,au pied de la Tour Bretagne,44000,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0009,"Ding Fring, les boutiques du Relais",boutique solidaire,,15 rue des Marsauderies,,,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0010,"Ding Fring, les boutiques du Relais",boutique solidaire,,5 rue Charles-Brunellière,,44100,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0011,"Ding Fring, les boutiques du Relais",boutique solidaire,,59 rue de la Commune-de-1871,,,Rezé,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0012,Bourdi'frip,boutique solidaire,,2A rue de Saint-Brévin,Centre socioculturel des Bourderies,,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0013,"Supporterre, la recyclerie du sport",friperie,,29 rue Corentin-Bourveau,quartier Doulon,,Nantes,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-nantes,2026-11-16
+FBS-0014,Fripes Ketchup,friperie,,25 rue Sergent-Blandan,,69001,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0015,Elephant Vintage Store,friperie,,19 rue Hippolyte-Flandrin,,69001,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0016,Tilt Vintage Lyon,friperie,,62 rue Victor-Hugo,,69002,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0017,Look Vintage,friperie,,8 quai de Bondy,,69005,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0018,Kilo Shop Lyon,au kilo,,39 rue de la Bourse,près de l'Opéra,69002,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0019,La Kiloterie,boutique solidaire,au kilo,17 rue de Toulon,,69007,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0020,Friperie solidaire du passage Thiaffait,boutique solidaire,,Passage Thiaffait,pentes de la Croix-Rousse,69001,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0021,"Frip'Attitude, Emmaüs",Emmaüs,,281 rue de Créqui,,69007,Lyon,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-lyon,2026-11-17
+FBS-0022,Guerrisol,friperie,,8 boulevard de Sébastopol,,75004,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0023,Guerrisol,friperie,,19 avenue de Clichy,,75017,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0024,Guerrisol,friperie,,96 bis boulevard Barbès,,75018,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0025,Guerrisol,friperie,,21 boulevard Marguerite-de-Rochechouart,,75009,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0026,Guerrisol,friperie,,5 avenue d'Italie,,75013,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0027,Guerrisol,friperie,,90 avenue du Général-Leclerc,,75014,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0028,ZXSBN6DD3VZBGSY,friperie,,64 rue Alexandre-Dumas,,75011,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0029,ZXSBN6DD3VZBGSY,friperie,,5 rue Notre-Dame-de-Bonne-Nouvelle,,75002,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0030,Les Sales Voleurs,friperie,,31 rue d'Avron,,75020,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0031,Les Sales Voleurs,friperie,,42 rue Monge,,75005,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0032,Les Sales Voleurs,friperie,,285 rue de Vaugirard,,75015,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0033,Kilo Shop,au kilo,,125 boulevard Saint-Germain,,75006,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0034,Kilo Shop,au kilo,,25 boulevard Saint-Michel,,75005,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0035,Kilo Shop,au kilo,,8 boulevard de Magenta,,75010,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0036,Kilo Shop,au kilo,,10 boulevard Montmartre,,75009,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0037,Kilo Shop,au kilo,,23 rue du Faubourg-du-Temple,,75010,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0038,Le Coffre,friperie,,26 rue de Ménilmontant,,75020,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0039,Le Coffre,friperie,,20 rue des Dames,,75017,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0040,Le Coffre,friperie,,62 rue Rochechouart,,75009,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0041,Kiliwatch,friperie,,64 rue Tiquetonne,,75002,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0042,Cheap Frip Vintage,friperie,,128 rue Saint-Denis,,75002,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0043,Acid Violette,friperie,,38 rue de la Folie-Méricourt,,75011,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0044,By Flowers,friperie,,86 rue des Martyrs,,75018,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0045,Iglaïne Vintage,friperie,,14 rue Nicolet,,75018,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0046,Bis Boutique Solidaire,boutique solidaire,,7 boulevard du Temple,,75003,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0047,Bis Boutique Solidaire,boutique solidaire,,19 rue Lamartine,,75009,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0048,Bis Boutique Solidaire,boutique solidaire,,96 rue Saint-Charles,,75015,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0049,Bis Boutique Solidaire,boutique solidaire,,20 avenue de Clichy,,75018,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0050,La Textilerie,boutique solidaire,,22 rue du Château-Landon,,75010,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0051,La Textilerie,boutique solidaire,,105 rue Curial,,75019,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0052,Le dressing d'Oxfam,boutique solidaire,,62 bis avenue Parmentier,,75011,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16
+FBS-0053,La friperie d'Activ'18,boutique solidaire,,10 rue Tristan-Tzara,,75018,Paris,FR,2026-11-15,https://bee-wholesale.com/blogs/guides/friperies-paris,2026-11-16

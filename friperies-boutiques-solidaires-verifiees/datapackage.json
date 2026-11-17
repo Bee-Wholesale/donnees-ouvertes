@@ -1,0 +1,149 @@
+{
+  "profile": "tabular-data-package",
+  "name": "friperies-boutiques-solidaires-verifiees",
+  "title": "Friperies et boutiques solidaires vérifiées",
+  "description": "Adresses de friperies, boutiques solidaires, Emmaüs, dépôts-ventes et friperies au kilo citées dans les guides de lieux publiés par Bee Wholesale, une ligne par adresse : nom, type, adresse, code postal, ville, date de vérification et lien vers le guide. Ni avis, ni note, ni donnée personnelle. Le jeu s'enrichit à chaque guide publié.",
+  "version": "2026.11",
+  "created": "2026-11-17T12:00:00+01:00",
+  "homepage": "https://bee-wholesale.com/blogs/guides/friperies-france",
+  "keywords": [
+    "friperie",
+    "boutique solidaire",
+    "Emmaüs",
+    "dépôt-vente",
+    "friperie au kilo",
+    "seconde main",
+    "adresses",
+    "Nantes",
+    "Lyon",
+    "Paris",
+    "France"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Bee Wholesale",
+      "path": "https://bee-wholesale.com",
+      "email": "bonjour@bee-wholesale.com",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Friperies à Nantes : 10 adresses vérifiées, du kilo au vintage",
+      "path": "https://bee-wholesale.com/blogs/guides/friperies-nantes"
+    },
+    {
+      "title": "Friperies à Lyon : 8 adresses vérifiées, du kilo au vintage",
+      "path": "https://bee-wholesale.com/blogs/guides/friperies-lyon"
+    },
+    {
+      "title": "Friperies à Paris : 14 enseignes vérifiées, de Guerrisol aux friperies solidaires",
+      "path": "https://bee-wholesale.com/blogs/guides/friperies-paris"
+    }
+  ],
+  "resources": [
+    {
+      "name": "adresses",
+      "path": "friperies-boutiques-solidaires-verifiees.csv",
+      "title": "Adresses vérifiées",
+      "description": "Une ligne par adresse (53 adresses, 32 enseignes, 3 guides au 17/11/2026).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\"",
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Identifiant stable de l'adresse",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "nom",
+            "type": "string",
+            "description": "Nom de l'enseigne tel qu'écrit dans le guide"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Type principal",
+            "constraints": {
+              "enum": [
+                "friperie",
+                "Emmaüs",
+                "boutique solidaire",
+                "dépôt-vente",
+                "au kilo"
+              ]
+            }
+          },
+          {
+            "name": "type_secondaire",
+            "type": "string",
+            "description": "Second type quand le guide en indique deux (ex. boutique solidaire qui vend au kilo)"
+          },
+          {
+            "name": "adresse",
+            "type": "string",
+            "description": "Numéro et voie"
+          },
+          {
+            "name": "complement_adresse",
+            "type": "string",
+            "description": "Repère ou complément écrit dans le guide"
+          },
+          {
+            "name": "code_postal",
+            "type": "string",
+            "description": "Code postal du balisage schema.org du guide ou de l'arrondissement écrit dans le guide ; vide sinon"
+          },
+          {
+            "name": "ville",
+            "type": "string"
+          },
+          {
+            "name": "pays",
+            "type": "string",
+            "description": "Code pays ISO 3166-1 alpha-2"
+          },
+          {
+            "name": "date_verification",
+            "type": "date",
+            "description": "Dernière vérification de l'adresse indiquée dans le guide"
+          },
+          {
+            "name": "url_guide",
+            "type": "string",
+            "format": "uri",
+            "description": "Guide publié qui cite l'adresse"
+          },
+          {
+            "name": "guide_publie_le",
+            "type": "date",
+            "description": "Date de publication du guide"
+          }
+        ],
+        "primaryKey": "id",
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
