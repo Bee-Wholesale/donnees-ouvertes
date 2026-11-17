@@ -15,6 +15,8 @@ Chaque dossier contient les tables en CSV et en JSON, un `datapackage.json` (Fri
 
 ## Citer
 
+DOI Zenodo : baromètre [10.5281/zenodo.24310054](https://doi.org/10.5281/zenodo.24310054) ; friperies [10.5281/zenodo.24310092](https://doi.org/10.5281/zenodo.24310092).
+
 Bee Wholesale (2026). *Données ouvertes de Bee Wholesale*, version 2026.11. bee-wholesale.com. Licence CC BY 4.0.
 
 Contact : bonjour@bee-wholesale.com
