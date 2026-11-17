@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces données, citez-les ainsi : Bee Wholesale (bee-wholesale.com). If you use these datasets, please cite them as below."
+type: dataset
+title: "Données ouvertes de Bee Wholesale : prix de gros de la fripe et friperies vérifiées"
+abstract: "Baromètre des prix de gros de la fripe en France (54 prix publics de 16 grossistes, relevé du 16 octobre 2026) et friperies et boutiques solidaires vérifiées (53 adresses). CSV, JSON, Frictionless."
+authors:
+  - name: "Bee Wholesale"
+    website: "https://bee-wholesale.com"
+    email: "bonjour@bee-wholesale.com"
+version: "2026.11"
+date-released: 2026-11-17
+license: CC-BY-4.0
+url: "https://bee-wholesale.com/pages/barometre-prix-fripe-en-gros"
+keywords:
+  - "open data"
+  - "fripe"
+  - "seconde main"
+  - "friperie"
+  - "prix"
+  - "France"
